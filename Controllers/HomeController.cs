@@ -56,15 +56,6 @@ namespace BraintreePaymentApp.Controllers
 
                 }
             }
-            var data = new PhonePurchaseVM
-            {
-                Id = Guid.NewGuid(),
-                Producer = "Samsung",
-                Receiver = "Ahmet Kara",
-                Model = "J7 Core",
-                Nonce = "",
-                Price = 500
-            };
             return paymentStatus;
                
         }
